@@ -1,0 +1,37 @@
+{
+	"/": [
+		"src/routes/+page.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/about": [
+		"src/routes/+layout.ts"
+	],
+	"/bubble-pop": [
+		"src/routes/bubble-pop/+page.ts",
+		"src/routes/+layout.ts"
+	],
+	"/calendar": [
+		"src/routes/calendar/+page.ts",
+		"src/routes/+layout.ts"
+	],
+	"/contact": [
+		"src/routes/contact/+page.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/events": [
+		"src/routes/events/+page.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/events/[slug]": [
+		"src/routes/events/[slug]/+page.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/speakers": [
+		"src/routes/+layout.ts"
+	],
+	"/speakers/[slug]": [
+		"src/routes/speakers/[slug]/+page.server.ts",
+		"src/routes/+layout.ts"
+	]
+}
